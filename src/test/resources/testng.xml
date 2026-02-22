@@ -1,0 +1,22 @@
+<suite name="bstackdemo Capstone Suite" verbose="1">
+
+  <listeners>
+    <listener class-name="listeners.ExtentTestNGListener"/>
+  </listeners>
+
+  <test name="All Tests">
+    <classes>
+      <class name="tests.LoginTest"/>
+      <class name="tests.LoginNegativeTest"/>
+      <class name="tests.LoginEmptyTest"/>
+
+      <class name="tests.AddToCartTest"/>
+      <class name="tests.AddMultipleItemsTest"/>
+      <class name="tests.RemoveFromCartTest"/>
+
+      <class name="tests.CheckoutTest"/>
+      <class name="tests.CheckoutNegativeTest"/>
+    </classes>
+  </test>
+
+</suite>
