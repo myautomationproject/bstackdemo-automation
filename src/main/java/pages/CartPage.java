@@ -13,7 +13,7 @@ public class CartPage {
     private WebDriver driver;
     private WaitUtils wait;
 
-    // Cart items inside cart panel
+    // Cart items inside the cart panel
     private By cartItems = By.cssSelector(".float-cart__content .shelf-item");
 
     // Remove button/icon inside each cart item (try common selectors)
